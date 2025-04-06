@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+/* container body */
+h1{
+    color: brown;
+    font-size: 2rem;
+}
+.container_chronometer{
+   min-height: 100vh;
+   min-width: 350px;
+   /* border: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.body__chronometer{
+    /* border: 1px solid black; */
+    min-height: 600px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.time_chronometer{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.556);
+    padding: 1rem;
+}
+.time{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(33, 30, 30);
+}
+.btn{
+    background-color: rgb(50, 50, 237);
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
